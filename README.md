@@ -21,4 +21,9 @@ O menu principal tem que sempre ocupar 100% da tela.
 Segundo o PSD a logo deve ficar centralizada no cabeçalho do lado esquerdo, para isso usamos o padding para centalizar( para testar depois, da pra pegar altura da logo e altura do main e calcular o cento perfeitamente)
 
 Proxímo passo é pegar as imagens que representam as redes sociais
+Elas seram colocadas em uma lista não ordenada <ul>, como são quatro imagens, usaremos quatro listas<li>, em cada lista teremos uma tag de link <a> para redirecionar a rede social
 
+Ao realizarmos essa ação as imagens apareçeram uma em  baixo da outra e como um ponto na frente.
+No CSS iremos resolver esse problema, resentando os pontos que não precisamos usando display: inline-block; ou { list-style:none; }
+
+um dos motivos para as imagens das redes socias não esta no rodapé superior é porque a logo está ocupando toda largura, diminuindo o valor de 100%  ele fica no lugar desejado

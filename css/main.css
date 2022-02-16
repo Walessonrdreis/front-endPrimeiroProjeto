@@ -16,5 +16,19 @@ main {
 }
 
 .logo {
+float: left;  
+width: 75%;  
 padding: 16px;
+}
+
+.redes-socias ul li {
+ margin-left: 12px; 
+display: inline-block;
+float: left;
+list-style: none;
+}
+
+.redes-socias {
+  width: 20%;
+  float: right;
 }
