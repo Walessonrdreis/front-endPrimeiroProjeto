@@ -33,7 +33,7 @@ Para adicionar espaço entre as imagens que estão presentes nas <li>  usaremos 
 Uma coisa que é interessante ser feita é remover a barra horizontal que aparece na página que está sendo construida, basta remover a margin dada por padrão a tag <body> usando<margin: 0 auto;>
 Edição do <header> a proxíma parte é a edição do menu do site.
 
-adcionando mais uma tag <main>
+adcionando mais uma tag <main> que recebe como class coL_100, a class tem o significado de coluna 100% para que o main ocupe todo espaço do site
 
 
 

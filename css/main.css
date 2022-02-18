@@ -63,3 +63,9 @@ width: 25%;
 float: right;
 padding: 16px;
 }
+
+.coL_100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
