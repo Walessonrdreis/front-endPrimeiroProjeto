@@ -42,6 +42,16 @@ No PSD pode se observar que a cada palavra ao passar o mouse é receberar uma co
   color: #00bac6;
 }>
 
+OBS: Um dos motivos de por as tags scripts no final do body é que alem de ser uma boa pratíca exixte uma lógica por traz, pois, se for colocado junto com o link do css, ele carregará primeiro que o css, pois o Css precisa ir tag por tag descrita para estilizar, por isso que as tag script deve ficar no final do body seguindo o padrão de carregamento, ele vai por cascata.
+
+Na quarta aula começamos a usar JavaScript, para isso utilizamos um site http://kenwheeler.github.io/slick/
+Nesse site possivel encontrar as animaçãoes prontas basta apenas, colocarmos as tags script encontrardas no proprio site com seus devidos caminhos no documento HTML para os scripts: <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  e     CSS:   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>  No arquivo js pegamos o código do modelo que queremos no noss caso foi : $('.slider-principal').slick();
+
+
+
 
 
 
