@@ -34,8 +34,9 @@ Uma coisa que é interessante ser feita é remover a barra horizontal que aparec
 Edição do <header> a proxíma parte é a edição do menu do site.
 
 adcionando mais uma tag <main> que recebe como class coL_100, a class tem o significado de coluna 100% para que o main ocupe todo espaço do site
+ALguns  navegadores possuem uma cong=figuração padrão, automaticamente adcionada, no caso do chrome por exemplio a tag<ul>, para isso utizaremos no css o <padding: 0px!important;> que vai sobrescrever a propriedade do navegador
 
-
+com a propriedade <placeholder> a gente consegue atribuir um texto padão dentro do nosso input 
 
 
 
