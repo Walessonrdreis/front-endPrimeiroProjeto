@@ -68,6 +68,13 @@ Todo botão deve ter <position: absolute;>
 Para o botão ser visivel em nosso site, logo, etc, é necessario usarmos <z-index> ele pernite que o elemento escolhido fique em cima de outros elementos. 
 Com o position absolute ele vai ficar em um lugar que não vai depender de nada, uma div ou alguma tag que vá locomovelo, depois disso usados a tag <top>
 
+para resovel o problema do scroll : .slick-list {
+  width: 100%!important;
+}
+slick-initialized {
+  overflow: hidden;
+}
+
 
 
 
