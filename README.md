@@ -50,6 +50,25 @@ Nesse site possivel encontrar as animaçãoes prontas basta apenas, colocarmos a
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   e     CSS:   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>  No arquivo js pegamos o código do modelo que queremos no noss caso foi : $('.slider-principal').slick();
 
+  Colocando asimagens das cetas no banner: button.slick-prev {
+    // Resetando a fonte
+  font-size: 0px;
+  removendo a borda
+  border: none;
+  //Adcionando o tamanho da largura da imagem, indo nas propriedades da propria imagem
+  width: 25px;
+  //Adicionando o tamanho da altura da imagem, indo nas propriedades da imagem
+  height: 51px;
+  // eixando a cou de fundo trsnsparente
+  background-color: transparent;
+  //Adicionado a imagem 
+  background-image: url('../img/anterior.png');
+}
+Todo botão deve ter <position: absolute;>
+Para o botão ser visivel em nosso site, logo, etc, é necessario usarmos <z-index> ele pernite que o elemento escolhido fique em cima de outros elementos. 
+Com o position absolute ele vai ficar em um lugar que não vai depender de nada, uma div ou alguma tag que vá locomovelo, depois disso usados a tag <top>
+
+
 
 
 
