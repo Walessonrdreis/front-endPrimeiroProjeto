@@ -34,10 +34,14 @@ Uma coisa que é interessante ser feita é remover a barra horizontal que aparec
 Edição do <header> a proxíma parte é a edição do menu do site.
 
 adcionando mais uma tag <main> que recebe como class coL_100, a class tem o significado de coluna 100% para que o main ocupe todo espaço do site
+Para remover o subrinhado da tag <a> retiramos o text decoration: <text-decoration: none;>
 ALguns  navegadores possuem uma cong=figuração padrão, automaticamente adcionada, no caso do chrome por exemplio a tag<ul>, para isso utizaremos no css o <padding: 0px!important;> que vai sobrescrever a propriedade do navegador
-
 com a propriedade <placeholder> a gente consegue atribuir um texto padão dentro do nosso input 
 
+No PSD pode se observar que a cada palavra ao passar o mouse é receberar uma cor e parra isso precisamos encontrar o local e adcionarmos as css no nosso caso ficoi dessa forma: .<menu ul li a:hover {
+  color: #00bac6;
+}>
 
 
-Para remover o subrinhado da tag <a> retiramos o text decoration: <text-decoration: none;>
+
+
